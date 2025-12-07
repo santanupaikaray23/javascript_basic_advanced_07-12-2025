@@ -1,0 +1,68 @@
+JavaScript(07-12-2025):
+-----------------------
+JavaScript is a programming language that allows us to implement complex features on web pages.
+
+HTML - It is the markup language that we use to srtucture and give meaning to our web content.
+
+CSS - It is the language of style rules that we used to apply styling to our HTML cotent.
+
+Syntax Parser
+--------------
+A program that reads your code and determines what it does and it its grammar is valid .
+
+Lexical Environment
+---------------------
+Where something sits physically in the code you write.
+
+function(){
+    ksldkald
+    asdkladkl
+    asldklsd1
+}
+
+Execution Context
+------------------
+a wrapper to help manage the code that is running.
+
+lexical 1
+lexical 2
+lexical 3
+
+for e.g Thre are lots of lexical Environment which one is currently running is managed by executation context.
+
+Nama/ Value pairs
+------------------
+name : Value
+
+A name which maps to a unique value(name: 'Sntanu')
+
+Object
+----------
+A collection of there name value pairs.
+
+Global environment and Global Object
+--------------------------------------
+When ever code is running in javascript it runs inside an executation context.
+
+Execution Context(Global)
+-------------------------
+Global Object // javascript execution engine creating these two things for us.
+This
+
+Global -  Not inside the function
+
+Hoisting
+-----------
+When you declare variable and function in javascript, the executation engine sets up a memory
+space for variable and function.
+
+1. If it is a variable it will keep that variable in memory and assign 
+a default value called undefined.
+
+2. If it is a function it will copy entire function and keeps in memory.
+
+undefined
+-----------
+It is a special value in javascript.
+completed video:23th
+
