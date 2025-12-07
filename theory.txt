@@ -63,6 +63,40 @@ a default value called undefined.
 
 undefined
 -----------
-It is a special value in javascript.
+It is a special value in javascript which takes up memory space.
+
+Warning : Never ever declare a variable undefined, bacause it is difficult to find value is 'undefined' bacause
+we set it or javascript executation engine set it up.
+
+Prmitive Types
+---------------
+A type of data that represents a single value is call Prmitive data type.
+
+1. undefined - This represent lack of existance(we should never use This)
+2. null -  This represents lack of existance(we can set a variable to this)
+3. Boolean - true or false
+4. Number - Integer/ floating type(decimal)
+5. String- a sequence or characters
+6. Symbol - used in ES6
+
+Anything which is not Prmitive is an object in javascript
+
+object
+function
+array
+Date
+RegularExpression
+
+Functions
+----------
+It is a block of code wrapped around flower brackets and invocated later.
+function functionname(){
+
+}
+
+1. Regular Functions
+2. Anonymous Functions
+3. Immediately invoked function(IIFS)
+
 completed video:23th
 
