@@ -98,5 +98,17 @@ function functionname(){
 2. Anonymous Functions
 3. Immediately invoked function(IIFS)
 
-completed video:23th
+First Class Functions
+-----------------------
+1. Can be invoked
+2. Assign to a variable
+3. passed as a parameter
+
+Advantages with IIFS
+---------------------
+1. Will not create unnecessary global variables and functions.
+2. Functions and variables defined don't conflict
+
+
+completed video:24th
 
