@@ -109,6 +109,21 @@ Advantages with IIFS
 1. Will not create unnecessary global variables and functions.
 2. Functions and variables defined don't conflict
 
+arrays
+-------
+An array is an object that can store a collection of items.
+It is useful when you want to store a large amount of data.
 
-completed video:24th
+var students = ["Santanu", "Sidhanta", "Sipun", "Sandeep"]
+
+var people = new Array ("Uma", "Swathi", "Sipun", "Sandeep")
+
+In javascript arrays are object types with special constructor.
+
+var array = new Array(3) - length
+var array = new Array (100000) - length will not create any memory
+
+Array insex start from zero
+
+completed video:26th
 
