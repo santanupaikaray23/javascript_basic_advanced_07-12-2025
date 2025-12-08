@@ -125,5 +125,17 @@ var array = new Array (100000) - length will not create any memory
 
 Array insex start from zero
 
-completed video:26th
+Closure
+-------
+Inner functions having access to the variables of outer functions.
+
+Bind vs Call vs Apply
+-----------------------
+bind - sets 'this' keyword and creates a copy of that function
+
+call - sets 'This' keyword and execute the function Immediately and doesnot 
+create a new copy of the function
+
+apply - sets 'This' keyword, similar to call
+completed video:27th
 
