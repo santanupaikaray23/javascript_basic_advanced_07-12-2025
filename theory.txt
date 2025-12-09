@@ -137,5 +137,5 @@ call - sets 'This' keyword and execute the function Immediately and doesnot
 create a new copy of the function
 
 apply - sets 'This' keyword, similar to call
-completed video:27th
+completed video:28th
 
