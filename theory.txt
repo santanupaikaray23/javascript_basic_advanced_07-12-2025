@@ -137,5 +137,48 @@ call - sets 'This' keyword and execute the function Immediately and doesnot
 create a new copy of the function
 
 apply - sets 'This' keyword, similar to call
+
+Class
+------
+JavaScript is a prototype-based language which contains no class statement such as is found in c# or Java.
+
+JavaScript uses function as a class.
+
+e.g. function Student(){}
+
+instance
+--------
+To create instance of the class
+
+function Person(){
+
+}
+
+var person1 = new Person();
+var person2 = new Person();
+
+constructor
+------------
+ function Order(){
+    consle.log('Order is placed')
+ }
+
+ var order = new Order(); ||Order() is called constructor
+
+ Properties
+ -----------
+ function customer(gender){
+    this.gender = gender
+ }
+
+ var customer1 = new Customer('Male')
+ var customer2 = new Customer('Male')
+
+prototype
+----------
+The prototype is an object that is associated with every function and objects by default in javascript.
+
+This is special type of object to which additional Properties and methods can be attached.
+
 completed video:28th
 
