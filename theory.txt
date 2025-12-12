@@ -180,5 +180,35 @@ The prototype is an object that is associated with every function and objects by
 
 This is special type of object to which additional Properties and methods can be attached.
 
+Inheritance
+------------
+One object get access to the properties and methods of another object.
+
+In Javascript inheritance is supported by using prototype object. This is also called prototypal inheritance.
+
+Polymorphism
+----------------
+Means function existing in many forms.
+
+In Programming, The ability for objecct to present the same interface for the different 
+behaviour.
+
+Error Handling
+---------------
+Helps us to handle the errors(runtime), for accessing undefined variables and undefined functions.
+
+try-catch-finally
+try {
+// code that may or may not throws error
+}
+
+catch {
+// Code to be executed if an error occurs
+}
+
+finally {
+// Code to be executed regardless of an error occure or not.
+}
+
 completed video:28th
 

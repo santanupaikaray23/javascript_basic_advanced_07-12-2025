@@ -1,0 +1,29 @@
+//With exception
+
+try{
+    var output =  getMessage("Hello","Santanu");
+}
+catch(error){
+    console.log(error)
+
+}
+finally{
+    //dbconnection.close();
+    //Network connections
+    //filestream
+   console.log("Finally block executed"); 
+}
+// Without any error
+try{
+    var output = "Hello"
+    console.log(output);
+}
+catch(error){
+    console.log(error)
+}
+finally{
+    //dbconnection.close();
+    //Network connections
+    //filestream
+   console.log("This will execute always");
+}
